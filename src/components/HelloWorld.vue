@@ -1,7 +1,6 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <router-link to="/credit">credit</router-link>
     <p>
       설정하고 사용자 정의 하기 위해서,
       다음 문서를 보세요.<br>
