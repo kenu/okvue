@@ -1,3 +1,4 @@
+<template>
 <!DOCTYPE HTML>
 <!--
 	Halcyonic by HTML5 UP
@@ -6,81 +7,26 @@
 -->
 <html>
 	<head>
-		<title>Two Column 2 - Halcyonic by HTML5 UP</title>
+		<title>Two Column 1 - Halcyonic by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="subpage">
 		<div id="page-wrapper">
-
-			<!-- Header -->
-				<section id="header">
-					<div class="container">
-						<div class="row">
-							<div class="col-12">
-
-								<!-- Logo -->
-									<h1><a href="index.html" id="logo">Halcyonic</a></h1>
-
-								<!-- Nav -->
-									<nav id="nav">
-										<a href="index.html">Homepage</a>
-										<a href="threecolumn.html">Three Column</a>
-										<a href="twocolumn1.html">Two Column #1</a>
-										<a href="twocolumn2.html">Two Column #2</a>
-										<a href="onecolumn.html">One Column</a>
-									</nav>
-
-							</div>
-						</div>
-					</div>
-				</section>
+			<the-header></the-header>
 
 			<!-- Content -->
 				<section id="content">
 					<div class="container">
 						<div class="row">
-							<div class="col-3 col-12-medium">
-
-								<!-- Sidebar -->
-									<section>
-										<header>
-											<h2>Magna Phasellus</h2>
-										</header>
-										<ul class="link-list">
-											<li><a href="#">Sed dolore viverra</a></li>
-											<li><a href="#">Ligula non varius</a></li>
-											<li><a href="#">Nec sociis natoque</a></li>
-											<li><a href="#">Penatibus et magnis</a></li>
-											<li><a href="#">Dis parturient montes</a></li>
-											<li><a href="#">Nascetur ridiculus</a></li>
-										</ul>
-									</section>
-									<section>
-										<header>
-											<h2>Ipsum Dolor</h2>
-										</header>
-										<p>
-											Vehicula fermentum ligula at pretium. Suspendisse semper iaculis eros, eu aliquam
-											iaculis. Phasellus ultrices diam sit amet orci lacinia sed consequat.
-										</p>
-										<ul class="link-list">
-											<li><a href="#">Sed dolore viverra</a></li>
-											<li><a href="#">Ligula non varius</a></li>
-											<li><a href="#">Dis parturient montes</a></li>
-											<li><a href="#">Nascetur ridiculus</a></li>
-										</ul>
-									</section>
-
-							</div>
-							<div class="col-9 col-12-medium imp-medium">
+							<div class="col-9 col-12-medium">
 
 								<!-- Main Content -->
 									<section>
 										<header>
-											<h2>Two Column #2</h2>
-											<h3>Another generic two column layout</h3>
+											<h2>Two Column #1</h2>
+											<h3>A generic two column layout</h3>
 										</header>
 										<p>
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam metus, congue
@@ -128,6 +74,39 @@
 											justo imperdiet vel. Proin nec dictum mi. Duis commodo enim non tellus interdum
 											iaculis. Phasellus ultrices diam sit amet orci lacinia sed consequat dui auctor.
 										</p>
+									</section>
+
+							</div>
+							<div class="col-3 col-12-medium">
+
+								<!-- Sidebar -->
+									<section>
+										<header>
+											<h2>Magna Phasellus</h2>
+										</header>
+										<ul class="link-list">
+											<li><a href="#">Sed dolore viverra</a></li>
+											<li><a href="#">Ligula non varius</a></li>
+											<li><a href="#">Nec sociis natoque</a></li>
+											<li><a href="#">Penatibus et magnis</a></li>
+											<li><a href="#">Dis parturient montes</a></li>
+											<li><a href="#">Nascetur ridiculus</a></li>
+										</ul>
+									</section>
+									<section>
+										<header>
+											<h2>Ipsum Dolor</h2>
+										</header>
+										<p>
+											Vehicula fermentum ligula at pretium. Suspendisse semper iaculis eros, eu aliquam
+											iaculis. Phasellus ultrices diam sit amet orci lacinia sed consequat.
+										</p>
+										<ul class="link-list">
+											<li><a href="#">Sed dolore viverra</a></li>
+											<li><a href="#">Ligula non varius</a></li>
+											<li><a href="#">Dis parturient montes</a></li>
+											<li><a href="#">Nascetur ridiculus</a></li>
+										</ul>
 									</section>
 
 							</div>
@@ -208,12 +187,23 @@
 
 		</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
+</template>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+<script>
+import TheHeader from '../components/TheHeader'
+
+export default {
+	components: {
+		TheHeader
+	}
+};
+</script>
