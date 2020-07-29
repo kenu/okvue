@@ -17,7 +17,7 @@
     </head>
     <body>
       <div id="page-wrapper">
-				<the-header></the-header>
+				<the-header bannerCopy="props? 기억나요?"></the-header>
         <!-- Features -->
         <section id="features">
           <div class="container">
