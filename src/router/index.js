@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import Sample from './sample'
 
 import HW from '../components/HelloWorld.vue'
 import TheCredit from '../views/TheCredit.vue'
@@ -9,6 +10,7 @@ Vue.use(Router)
 
 const router = new Router({
   routes: [
+    ...Sample,
     { path: '/', component: HW },
     { path: '/credit', component: TheCredit },
     { path: '/index2', component: Index2 },
