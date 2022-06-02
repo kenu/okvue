@@ -3,7 +3,7 @@
     <h1>{{ msg }}</h1>
     <p>
       설정하고 사용자 정의 하기 위해서,
-      다음 문서를 보세요.<br>
+      아래 문서를 보세요.<br>
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
     <h3>Installed CLI Plugins</h3>
